@@ -6,7 +6,7 @@ This was a group project for the Big Data Analytics Course at UMASS Boston. I im
 
 To run the program you can do and see the classification of craters, open a terminal and do the following:
 
-python tile3_24.pgm gt_tile3_24.csv Pickles/leaky_e24_0075_val0.9903-txt0.98.05.pkl 
+python crater_slice_winodw.py tile3_24.pgm gt_tile3_24.csv Pickles/leaky_e24_0075_val0.9903-txt0.98.05.pkl 
 
 The first argument is the big image the sliding window will move over, the second is a list of crater locations and radius for the .pgm file and the third argument is a pickle of the network at a state when it had the best validation and test accuracy found. 
 
